@@ -1,0 +1,14 @@
+{
+  "name": "easy-curry",
+  "description": "Only a small and simple curry function. Nothing extra.",
+  "version": "1.0.3",
+  "homepage": "https://github.com/Ivan-Korolenko/easy-curry",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Ivan-Korolenko/easy-curry.git"
+  },
+  "author": "Ivan Korolenko <iam@ivankorolenko.com>",
+  "main": "./curry",
+  "keywords": ["javascript", "javascript-library", "curry", "currying", "functional-programming", "easy-curry"],
+  "license": "MIT"
+}

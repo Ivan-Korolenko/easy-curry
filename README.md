@@ -10,6 +10,10 @@ Examples of usage:
 - curry(someFuncion(1)(2))
 - etc.
 
+## Why?
+If you don't know what currying is or what it's youseful for, you can read a quick guide here:
+https://medium.com/@ivankorolenko/how-to-quickly-understand-currying-in-javascript-7a3875f3fde6
+
 ## Installation
 ### NPM
 Add package using NPM:

@@ -35,9 +35,17 @@ https://medium.com/@ivankorolenko/how-to-quickly-understand-currying-in-javascri
 ## Getting Started
 ### NPM
 Add this library to your project using NPM
-```npm i easy-curry```
+
+```
+npm i easy-curry
+```
+
 import what you need
-```import {curry} from 'easy-curry'```
+
+```
+import {curry} from 'easy-curry'
+```
+
 and use it
 ```
 const add = (a, b) => a + b

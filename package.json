@@ -1,7 +1,7 @@
 {
   "name": "easy-curry",
-  "description": "Only a small and simple curry function. Nothing extra.",
-  "version": "1.0.4",
+  "description": "Easy curry. Just what you need.",
+  "version": "1.0.5",
   "homepage": "https://github.com/Ivan-Korolenko/easy-curry",
   "repository": {
     "type": "git",
@@ -9,6 +9,36 @@
   },
   "author": "Ivan Korolenko <iam@ivankorolenko.com>",
   "main": "./curry",
-  "keywords": ["javascript", "javascript-library", "curry", "currying", "functional-programming", "easy-curry"],
-  "license": "MIT"
+  "keywords": [
+    "javascript",
+    "library",
+    "easy-curry",
+    "curry",
+    "curryV",
+    "curryN",
+    "currying",
+    "variative currying",
+    "tree-shakeable",
+    "no dependencies",
+    "partial application",
+    "functional",
+    "small size",
+    "modules",
+    "util"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+      "transform": {
+        "^.+\\.jsx?$": "babel-jest"
+    }
+  }
 }

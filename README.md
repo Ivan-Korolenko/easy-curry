@@ -1,4 +1,6 @@
 # Easy curry. Just what you need. 
+
+[![minzipped size](https://badgen.net/bundlephobia/minzip/easy-curry)](https://badgen.net/bundlephobia/minzip/easy-curry)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 Only small and simple curry functions. Nothing more.
@@ -16,7 +18,7 @@ https://medium.com/@ivankorolenko/how-to-quickly-understand-currying-in-javascri
 
 ✔️ Tree-shakable
 
-✔️ nano-size: 291 bytes minified (without gzip)
+✔️ Small size: 275 bytes minified and gzipped
 
 ✔️ Thoroughly covered with tests
 
@@ -45,7 +47,7 @@ console.log(curry(add)(2)(2))
 ### CDN
 Add this code to your HTML
 ```
-<script src="https://cdn.jsdelivr.net/npm/easy-curry@1.0.5/curry.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/easy-curry/curry.min.js"></script>
 ```
 and use it
 ```
@@ -72,11 +74,16 @@ You can import any function you need separately.
 
 This library has no default export. [Why it's a good thing](https://humanwhocodes.com/blog/2019/01/stop-using-default-exports-javascript-module/)
 
+```curry``` - classical currying. Creates a sequence of functions that corresponds to passed function's arity
+
+```curryN``` - curryies a function to fixed arity
+
+```curryV``` - variative currying. Enhanced version of classical currying. Curried function supports termination (early value return), meaning it can be called before receiving the full set of arguments using empty argument call.
 
 Examples of usage:
 - curry(someFuncion(1)(2)(3))
 - curry(someFuncion(1, 2, 3))
 - curry(someFuncion(1, 2)(3))
 - curry(someFuncion(1)(2)) 
-- curryV(someFuncion(1)(2)())
 - curryN(1, someFuncion(1))
+- curryV(someFuncion(1)(2)())

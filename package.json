@@ -1,7 +1,7 @@
 {
   "name": "easy-curry",
   "description": "Easy curry. Just what you need.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "https://github.com/Ivan-Korolenko/easy-curry",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "curryV",
     "curryN",
     "currying",
-    "variative currying",
+    "variadic currying",
     "tree-shakeable",
     "no dependencies",
     "partial application",

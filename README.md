@@ -26,7 +26,7 @@ https://medium.com/@ivankorolenko/how-to-quickly-understand-currying-in-javascri
 
 ✔️ Partial application
 
-✔️ Variative currying
+✔️ Variadic functions currying
 
 ✔️ Easy to read code. You can understand what you're using
 
@@ -86,7 +86,7 @@ This library has no default export. [Why it's a good thing](https://humanwhocode
 
 ```curryN``` - curryies a function to fixed arity
 
-```curryV``` - variative currying. Enhanced version of classical currying. Curried function supports termination (early value return), meaning it can be called before receiving the full set of arguments using empty argument call.
+```curryV``` - variadic currying. Enhanced version of classical currying. Curried function supports termination (early value return), meaning it can be called before receiving the full set of arguments using empty argument call.
 
 Examples of usage:
 - curry(someFuncion(1)(2)(3))

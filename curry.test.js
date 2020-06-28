@@ -36,29 +36,29 @@ test('curryN fixes arity of a function, curried function returns value when it g
 })
 
 
-test('variative curry works like regular curry until empty argument call', () => {
+test('variadic curry works like regular curry until empty argument call', () => {
     expect(curryV(addThreeNumbers)(1)(2)(3)).toEqual(6)
     expect(curryV(addThreeNumbers)(1, 2, 3)).toEqual(6)
     expect(curryV(addThreeNumbers)(1, 2)(3)).toEqual(6)
     expect(curryV(addThreeNumbers)(1)(2)).toBeInstanceOf(Function)
 })
 
-test('variative curry runs function when called with empty argument', () => {
+test('variadic curry runs function when called with empty argument', () => {
     expect(curryV(addFourOrLessNumbers)(1)()).toEqual(1)
     expect(curryV(addFourOrLessNumbers)(1)()).toEqual(1)
 })
 
-test('variative curry treats explicitly passed undefined as a regular argument', () => {
+test('variadic curry treats explicitly passed undefined as a regular argument', () => {
     expect(curryV(addFourOrLessNumbers)(1)(undefined)()).toEqual(1)
     expect(curryV(addFourOrLessNumbers)(1)(undefined)(2)()).toEqual(3)
 })
 
-test('variative curry does not let you call a curried function which already returned a value', () => {
+test('variadic curry does not let you call a curried function which already returned a value', () => {
     expect(() => {
         curryV(addFourOrLessNumbers)(1, 2, 3, 4)()()
     }).toThrow()
 })
 
-test('variative curry should support zero arity functions', () => {
+test('variadic curry should support zero arity functions', () => {
     expect(curryV(zeroArityFn)()).toEqual("zero arity")
 })

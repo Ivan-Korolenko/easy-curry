@@ -1,5 +1,6 @@
 # Easy curry. Just what you need. 
 
+[![dependencies](https://badgen.net/david/dep/Ivan-Korolenko/easy-curry)](https://badgen.net/david/dep/Ivan-Korolenko/easy-curry)
 [![minzipped size](https://badgen.net/bundlephobia/minzip/easy-curry)](https://badgen.net/bundlephobia/minzip/easy-curry)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 

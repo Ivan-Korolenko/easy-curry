@@ -1,4 +1,4 @@
-import curry, {curryN, curryV} from './curry'
+import {curry, curryN, curryV} from './curry'
 
 const addThreeNumbers = (a, b, c) => a + b + c
 

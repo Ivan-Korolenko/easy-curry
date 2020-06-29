@@ -90,9 +90,9 @@ This library has no default export. [Why it's a good thing](https://humanwhocode
 ```curryV``` - variadic currying. Enhanced version of classical currying. Curried function supports termination (early value return), meaning it can be called before receiving the full set of arguments using empty argument call.
 
 Examples of usage:
-- curry(someFuncion(1)(2)(3))
-- curry(someFuncion(1, 2, 3))
-- curry(someFuncion(1, 2)(3))
-- curry(someFuncion(1)(2)) 
-- curryN(1, someFuncion(1))
-- curryV(someFuncion(1)(2)())
+- curry(someFunction(1)(2)(3))
+- curry(someFunction(1, 2, 3))
+- curry(someFunction(1, 2)(3))
+- curry(someFunction(1)(2)) 
+- curryN(1, someFunction(1))
+- curryV(someFunction(1)(2)())

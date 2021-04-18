@@ -5,7 +5,7 @@ export const curryN = (n, fn) =>
         const partiallyApplied = (...moreArgs) => curried(...args.concat(moreArgs))
         
         if (haveEnoughArgs) return fn(...args)
-        else return partiallyApplied
+        return partiallyApplied
     }
 
 // Regular curry is just a special case of curryN, where n = function's arity
@@ -20,9 +20,9 @@ export const curryV = (fn) =>
             shouldRunRightNow = moreArgs.length === 0 
 
             if (shouldRunRightNow) return fn(...args) 
-            else return curried(...args.concat(moreArgs))
+            return curried(...args.concat(moreArgs))
         }
             
         if (haveEnoughArgs || shouldRunRightNow) return fn(...args)        
-        else return partiallyApplied    
+        return partiallyApplied    
     }

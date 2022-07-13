@@ -1,7 +1,7 @@
 {
   "name": "easy-curry",
   "description": "Easy curry. Just what you need.",
-  "version": "1.0.15",
+  "version": "1.1.15",
   "homepage": "https://github.com/Ivan-Korolenko/easy-curry",
   "repository": {
     "type": "git",
@@ -27,18 +27,5 @@
     "util"
   ],
   "license": "MIT",
-  "type": "module",
-  "devDependencies": {
-    "@babel/preset-env": "^7.10.3",
-    "babel-jest": "^26.1.0",
-    "jest": "^26.1.0"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.jsx?$": "babel-jest"
-    }
-  }
+  "type": "module"
 }

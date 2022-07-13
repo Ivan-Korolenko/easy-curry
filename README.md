@@ -1,7 +1,6 @@
 # Easy curry. Just what you need. 
 
 [![dependencies](https://badgen.net/bundlephobia/dependency-count/easy-curry)](https://badgen.net/bundlephobia/dependency-count/easy-curry)
-[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 Only small and simple curry functions. Nothing else.
 
@@ -19,8 +18,6 @@ https://medium.com/@ivankorolenko/how-to-quickly-understand-currying-in-javascri
 ✔️ Tree-shakable
 
 ✔️ Small size: 275 bytes minified and gzipped
-
-✔️ Thoroughly covered with tests
 
 ✔️ Any number of arguments at a time
 

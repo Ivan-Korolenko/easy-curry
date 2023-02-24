@@ -1,7 +1,4 @@
 # Easy curry. Just what you need. 
-
-[![dependencies](https://badgen.net/bundlephobia/dependency-count/easy-curry)](https://badgen.net/bundlephobia/dependency-count/easy-curry)
-
 Only small and simple curry functions. Nothing else.
 
 ## Why?
@@ -84,9 +81,9 @@ This library has no default export. [Why it's a good thing](https://humanwhocode
 ```curryV``` - variadic currying. Enhanced version of classic currying. Curried function supports termination (early value return), meaning it can be called before receiving the full set of arguments using empty argument call.
 
 Examples:
-- curry(someFunction(1)(2)(3))
-- curry(someFunction(1, 2, 3))
-- curry(someFunction(1, 2)(3))
-- curry(someFunction(1)(2)) 
-- curryN(1, someFunction(1))
-- curryV(someFunction(1)(2)())
+- curry(someFunction)(1)(2)(3)
+- curry(someFunction)(1, 2, 3)
+- curry(someFunction)(1, 2)(3)
+- curry(someFunction)(1)(2)
+- curryN(1, someFunction)(1)
+- curryV(someFunction)(1)(2)()

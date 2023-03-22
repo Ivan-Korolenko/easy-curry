@@ -1,28 +1,20 @@
 # Easy curry. Just what you need. 
 Only small and simple curry functions. Nothing else.
 
-## Why?
-If you don't know what currying is or what it's used for, you can read a quick guide here:
+## What is currying?
+Quick guide here:
 https://medium.com/@ivankorolenko/how-to-quickly-understand-currying-in-javascript-7a3875f3fde6
 
 ## Why easy-curry?
-✔️ Only what you need
+✔️ Only simple curry functions. Nothing extra
+
+✔️ Easy to read code. You can easily understand what you're using
 
 ✔️ No dependencies
 
-✔️ Modular
+✔️ Only 275 bytes (minified and gzipped)
 
-✔️ Tree-shakable
-
-✔️ Small size: 275 bytes minified and gzipped
-
-✔️ Any number of arguments at a time
-
-✔️ Partial application
-
-✔️ Variadic functions currying
-
-✔️ Easy to read code. You can easily understand what you're using
+✔️ Supports 3 types of currying: classic, to fixed arity, variadic
 
 ## Getting Started
 ### NPM

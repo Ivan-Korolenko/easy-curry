@@ -1,7 +1,7 @@
 {
   "name": "easy-curry",
   "description": "Easy curry. Just what you need.",
-  "version": "1.1.18",
+  "version": "1.2.0",
   "homepage": "https://github.com/Ivan-Korolenko/easy-curry",
   "repository": {
     "type": "git",
@@ -10,21 +10,14 @@
   "author": "Ivan Korolenko <iam@ivankorolenko.com>",
   "main": "./curry",
   "keywords": [
-    "javascript",
-    "library",
-    "easy-curry",
     "curry",
-    "curryV",
-    "curryN",
-    "currying",
-    "variadic currying",
-    "tree-shakeable",
-    "no dependencies",
-    "partial application",
-    "functional",
-    "small size",
-    "modules",
-    "util"
+    "library",
+    "variadic",
+    "js",
+    "ts",
+    "small",
+    "typed",
+    "no dependencies"
   ],
   "license": "MIT",
   "type": "module"

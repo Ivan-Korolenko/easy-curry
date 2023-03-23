@@ -1,20 +1,20 @@
 # Easy curry. Just what you need. 
-Only small and simple curry functions. Nothing else.
+Only small and simple curry functions. Nothing extra
 
 ## What is currying?
 Quick guide here:
 https://medium.com/@ivankorolenko/how-to-quickly-understand-currying-in-javascript-7a3875f3fde6
 
 ## Why easy-curry?
-✔️ Only simple curry functions. Nothing extra
+✔️ Code is easy to read. You can easily understand what you're using
 
-✔️ Easy to read code. You can easily understand what you're using
+✔️ Multiple types of currying: classic, to fixed arity, variadic
+
+✔️ Can be used in a TypeScript project (.d.ts file included)
+
+✔️ Size: 275 bytes (minified and gzipped)
 
 ✔️ No dependencies
-
-✔️ Only 275 bytes (minified and gzipped)
-
-✔️ Supports 3 types of currying: classic, to fixed arity, variadic
 
 ## Getting Started
 ### NPM

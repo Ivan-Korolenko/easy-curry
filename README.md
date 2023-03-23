@@ -27,13 +27,13 @@ npm i easy-curry
 import what you need
 
 ```
-import {curry} from 'easy-curry'
+import { curry } from 'easy-curry';
 ```
 
 and use it
 ```
-const add = (a, b) => a + b
-console.log(curry(add)(2)(2))
+const add = (a, b) => a + b;
+curry(add)(2)(2);
 ```
 
 ### CDN
@@ -44,25 +44,25 @@ Add this code to your HTML
 and use it
 ```
 <script>
-    const add = (a, b) => a + b
-    console.log(curry(add)(2)(2))
+    const add = (a, b) => a + b;
+    curry(add)(2)(2);
 </script>
 ```
 
 ### Manually
 Download curry.min.js from this repository to your project's folder and use it
 ```
-<script src="curry.min.js"></script>
+<script src="./curry.min.js"></script>
 <script>
-    const add = (a, b) => a + b
-    console.log(curry(add)(2)(2))
+    const add = (a, b) => a + b;
+    curry(add)(2)(2);
 </script>
 ```
 
 ## How to use
 You can import any function you need separately.
 
-```import {curry, curryN, curryV} from 'easy-curry'```
+```import { curry, curryN, curryV } from 'easy-curry'```
 
 This library has no default export. [Why it's a good thing](https://humanwhocodes.com/blog/2019/01/stop-using-default-exports-javascript-module/)
 
